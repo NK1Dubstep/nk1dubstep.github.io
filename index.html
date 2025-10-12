@@ -2,27 +2,107 @@
 <html>
   <head>
     <title>index.html</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
   </head>
-  <body>
+  <body class="c834" id="home">
     <div>
-      <h1>CGSG NK1 Summer Practice home page</h1>
-      <h2>2023</h2>
-      <h5><a href="fractals_webgl/index.html">Fractals drawing</a></h5>
-      <h5><a href="nkgl/index.html">Platon bodies</a></h5>
-      <h5><a href="nkgl_model/index.html">Obj (textures, materials, simple shade)</a></h5>
-      <h5><a href="nkgl_rollup/dist/index.html">Platon bodies + obj + rollup</a></h5>
+      <h1 class="header">
+        NK1
+        <a class="smallText">Generating websites with AI is bad and tasteless.</a>
+      </h1>
+      <table class="linkTable">
+        <tr>
+          <td><a href="#aboutMe">About me</a></td>
+          <td><a href="#myExp">Achievements & Exp</a></td>
+          <td><a href="#myProj">My projects</a></td>
+          <td><a href="#contacts">Contacts</a></td>
+        </tr>
+      </table>
+
+      <section id="aboutMe">
+      <h2 class="header2">About me&nbsp;&nbsp;&nbsp;<a href="#home">&lt;go home&gt;</a></h2>
+      <div class="normalText">
+        Education:<br>
+        <ul>
+          <li>SPb Phys-Math Lyceum № 30, '25'1</li>
+          <li><a href="https://www.school30.spb.ru/cgsg/">Computer Graphics Support Group</a>, 2022-2025</li>
+          <li>HSE SPb, Computer Games Programming & Engineering, '29</li>
+        </ul>
+      </div>
+      </section>
+
+
+      <section id="myExp">
+      <h2 class="header2">Achievements & Exp&nbsp;&nbsp;&nbsp;<a href="#home">&lt;go home&gt;</a></h2>
+      <div class="normalText">
+        Math:<br>
+        <ul>
+          <li>Verchenko Math & Cryptography Olympiad Prizewinner</li>
+        </ul>
+        Programming:<br>
+        <ul>
+          <li>C/C++, (Java/Type)Script, Python</li>
+          <li>Have had experience with OpenGL, WebGL, Vulkan API 1.4 engines</li>
+          <li><a href="https://internat.msu.ru/educational-projects/turniry-i-konferentsii/kolmogorovskie-chteniya/xxiv-kolmogorovskie-chteniya/">
+            XXIV</a> &
+            <a href="https://internat.msu.ru/educational-projects/turniry-i-konferentsii/kolmogorovskie-chteniya/xxv-kolmogorovskie-chteniya/">
+            XXV</a>
+             Kolmogorov Readings Winner in Computer Science and Mathematical Modeling section (via CGSG projects)
+          <li>...
+          <li>Hard work with descriptor sets</li>
+          <li>VkDescriptorSet master</li>
+          <li>FL Studio user: <br><a class="smallText">Happy New Year 2025 (Complextro).mp3</a><br> <audio controls><source src="./bin/audio/HappyNewYear2025Complextro.mp3" type="audio/mpeg" /></audio></li>
+        </ul>
+      </div>
+      </section>
+
+      <section id="myProj">
+      <h2 class="header2">My Projects&nbsp;&nbsp;&nbsp;<a href="#home">&lt;go home&gt;</a></h2>
+      <div class="normalText">
+        <a>Group:</a>
+        <ul>
+          <li>2023, <a href="https://www.school30.spb.ru/cgsg/videos/TTP_Presentation.pdf">TTP</a></li>
+          <li>2024, <a href="https://www.school30.spb.ru/cgsg/videos/TPS_Presentation.pdf">TPS</a></li>
+          <li>2024, Caliberstat 2.0 (1CGS <a href="https://playcaliber.com">Caliber</a> Game Free Statistics), 2024 (WIP) with <a href="https://www.github.com/agentnokia">OE2</a></li>
+          <img src="./bin/images/caliberstat-2-0-app.png" width="40%"><br>
+          <img src="./bin/images/caliberstat-2-0-site.png" width="40%">
+          <li>2024-2025, <a href="https://www.school30.spb.ru/cgsg/videos/TCR_Presentation.pdf">TCR</a></li>
+        </ul>
+
+        <a>Individual:</a>
+        <ul>
+          <li>2023:
+            <ul>
+              <li><a href="fractals_webgl/index.html">Fractals drawing</a></li>
+              <li><a href="nkgl_rollup/dist/index.html">Platon bodies + .obj</a></li>
+            </ul>
+          </li>
+
+          <li>2024:
+            <ul>
+              <li><a href="web-raymarching/index.html">Web ray marching</a></li>
+              <li><a href="web-weather-getter/index.html">Web weather getter</a></li>
+              <li><a href="https://amber-sable-stranger.glitch.me">Final project (CGSG Database)</a>&nbsp;&nbsp;&nbsp;<a class="smallText">Glitch is closed</a></li>
+            </ul>
+          </li>
+
+          <li>2025:
+            <ul>
+              <li><a href="matrix/matrix.html">Matrix shit (OMP HSE Ilya Ivantsov Example)</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      </section>
+
+      <section id="contacts">
+        <h2 class="header2">Contacts&nbsp;&nbsp;&nbsp;<a href="#home">&lt;go home&gt;</a></h2>
+        <div class="normalText">
+          Sorry, no contacts.
+        </div>
+      </section>
     </div>
     <br>
-    <div>
-      <h2>2024</h2>
-      <h5><a href="web-raymarching/index.html">Web ray marching</a></h5>
-      <h5><a href="web-weather-getter/index.html">Web weather getter</a></h5>
-      <h5><a href="https://amber-sable-stranger.glitch.me">Final project (CGSG Database)</a></h5>
-    </div>
-    <br>
-    <div>
-      <h2>2025</h2>
-      <h5><a href="matrix/matrix.html">Matrix shit</a></h5>
-    </div>
+    <img src="bin/images/NK1_LOGO_CENTERED.png" width="40px"><a class="smallText">© NK1 2025</a>
   </body>
 </html>
